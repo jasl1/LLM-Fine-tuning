@@ -1,7 +1,7 @@
 # Fine-tuned Text Summarization Model
 
 ### Introduction
-In this project, we will fine-tune a pre-trained language model for the task of text summarization. Text summarization is the process of creating a concise and accurate summary of a given text while preserving its essential information. This project will demonstrate how to fine-tune a pre-trained model using a parameter-efficient fine-tuning technique called Prefix-Tuning.
+In this project, we will fine-tune a pre-trained language model for the task of text summarization. Text summarization is the process of creating a concise and accurate summary of a given text while preserving its essential information. Specifically, we fine-tune a pre-trained T5 model for text summarization using the Prefix-Tuning technique on the CNN/Daily Mail dataset. Our advise is to modify the hyperparameters, such as the learning rate, batch size, and number of epochs, to potentially improve the model's performance.
 
 ### Parameter-efficient Fine-tuning Techniques
 While traditional fine-tuning updates all the trainable parameters of the pre-trained model, parameter-efficient fine-tuning techniques aim to further reduce the number of trainable parameters, leading to even greater computational efficiency and potential for better generalization.
